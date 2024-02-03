@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+gensim = "==4.1.2"
+sklearn = "==0.0"
+numpy = "==1.23.4"
+nltk = "==3.7"
+matplotlib = "*"
+plotly = "*"
+seaborn = "*"
+
+[dev-packages]
+pylint = "==2.13.2"
+pytest = "==6.2.2"
+tqdm = "==4.64.1"
+requests = "==2.28.1"
+streamlit = "==1.12.2"
+Pillow = "==9.0.1"
+protobuf = "==3.20.1"
+
+[requires]
+python_version = "3.10"
+
+[pipenv]
+allow_prereleases = true
